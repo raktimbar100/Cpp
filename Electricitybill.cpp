@@ -10,7 +10,7 @@ int main()
 	if(un<=100)
 	{
 		bill=0;
-		cout<<"No chargest to be paid."<<endl;
+		cout<<"No chargest to be paid."<<bill<<endl;
 	}
 	else if(un<=200)
 	{
@@ -23,13 +23,10 @@ int main()
 		bill=0+100*5+(un-200)*10;
 		cout<<"Your total bill is:"<<bill<<endl;
 	}
-	else if(un>=300)
+	else
 	{
 		bill=0+100*5+100*10+(un-300)*12;
 		cout<<"Your total bill is: "<<bill<<endl;
 	}
-	else
-	{
-		cout<<"Invalid"<<endl;
-	}
+
 }
